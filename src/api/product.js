@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080";
+const API_URL = "https://kle-backend-v2km.onrender.com";
 
 export async function deleteProduct(product) {
   const response = await fetch(`${API_URL}/product/delete/${product}`, {
